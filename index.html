@@ -5,25 +5,51 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Hangman Game </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <div id="BoxOfTheGame">
+            
 
+
+            <header id="headerTag">
+                <div id="divOfHintAndRestart">
+                    <button id="hintButton"> Hint </button>
+                    <button id="restartButton"> Restart </button>
+                </div>
+                    <h1 id="titleHangmanGame"> Hangman Game </h1>
+                <div>
+                    <button id="howToPlayButton"> How to play </button>
+                </div>
+            </header>
+
+
+
+            <main id="gameArea">
+                <p id="attemptsText"> 6 Attempts left </p>
+
+                <div id="theGallow">
+                    <div id="theBase"></div>
+                    <div id="thePillar"></div>
+                    <div id="theRoof"></div>
+                    <div id="theRope"></div>
+
+                    <div id="head" class="bodyParts"></div>
+                    <div id="body" class="bodyParts"></div>
+                    <div id="leftArm" class="bodyParts"></div>
+                    <div id="rightArm" class="bodyParts"></div>
+                    <div id="leftLeg" class="bodyParts"></div>
+                    <div id="rightLeg" class="bodyParts"></div>
+                </div>
+            </main>
+
+        </div>
     </body>
 
-</html>
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
 </html>

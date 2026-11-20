@@ -8,4 +8,4 @@
 Goal: [To choose a theme for the background, to finalize the UI, and to start building the UI using HTML and CSS].
 
 Start: [17/11/26]
-End: [19/11/26]
+End: [21/11/26]  //changed the end date to 21

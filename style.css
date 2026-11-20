@@ -1,0 +1,139 @@
+:root {
+    --background: #0E0E0E;
+    --gold: #D4AF37;
+    --text: #E8C77A;
+    --font: "Cinzel", serif;
+    --buttonHover: #5a4617;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--font);
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#BoxOfTheGame {
+    border: 5px double var(--gold);
+    border-radius: 20px;
+    padding: 20px 30px;
+    width: 90%;
+    max-width: 900px;
+    min-height: 85vh;
+}
+
+#divOfHintAndRestart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 110px;
+    justify-content: center;
+}
+
+#headerTag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#titleHangmanGame {
+    border: 2px solid var(--gold);
+    border-radius: 12px;
+    padding: 8px 30px;
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+
+#howToPlayButton {
+    width: 110px;
+}
+
+button {
+    font-family: var(--font);
+    font-size: 20px;
+    border: 2px solid var(--gold);
+    border-radius: 10px;
+    color: var(--text);
+    background-color: transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--buttonHover);
+}
+
+#gameArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+#attemptsText {
+    font-size: 20px;
+}
+
+#theGallow {
+    position: relative;
+    width: 220px;
+    height: 260px;
+}
+
+#theGallow div {
+    position: absolute;
+    background-color: var(--gold);
+}
+
+#theBase {
+    left: 0;
+    bottom: 0;
+    width: 140px;
+    height: 6px;
+}
+
+#thePillar {
+    left: 40px;
+    bottom: 0;
+    width: 6px;
+    height: 260px;
+}
+
+#theRoof {
+    left: 40px;
+    top: 0;
+    width: 180px;
+    height: 6px;
+}
+
+#theRope {
+    left: 214px;
+    top: 0px;
+    width: 6px;
+    height: 40px;
+}
+
+#head {
+
+}
+
+
+
+
+
+
+
+
