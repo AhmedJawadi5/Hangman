@@ -22,6 +22,12 @@ body {
     align-items: center;
 }
 
+
+
+
+
+
+
 #BoxOfTheGame {
     border: 5px double var(--gold);
     border-radius: 20px;
@@ -30,6 +36,12 @@ body {
     max-width: 900px;
     min-height: 85vh;
 }
+
+
+
+
+
+
 
 #divOfHintAndRestart {
     display: flex;
@@ -74,6 +86,12 @@ button {
 button:hover {
     background-color: var(--buttonHover);
 }
+
+
+
+
+
+
 
 #gameArea {
     display: flex;
@@ -127,7 +145,57 @@ button:hover {
 }
 
 #head {
+    top: 35px;
+    left: 192px;
+    width: 50px;
+    height: 50px;
 
+    border-radius: 30px;
+}
+
+#body {
+    top: 80px;
+    width: 5px;
+    height: 120px;
+    left: 214px;
+}
+
+#leftArm {
+    top: 110px;
+    width: 5px;
+    height: 40px;
+    left: 200px;
+
+    transform: rotate( 40deg ); /* this will rotate clockwise */
+                                /* (-40deg) will rotate antiiclockwise */
+    /* transform-origin: top; */
+}
+
+#rightArm {
+    top: 110px;
+    width: 5px;
+    height: 40px;
+    left: 228px;
+
+    transform: rotate( -40deg );
+}
+
+#leftLeg {
+    top: 194px;
+    width: 5px;
+    height: 40px;
+    left: 201px;
+
+    transform: rotate( 40deg );
+}
+
+#rightLeg {
+    top: 194px;
+    width: 5px;
+    height: 40px;
+    left: 227px;
+
+    transform: rotate( -40deg );
 }
 
 
@@ -136,4 +204,84 @@ button:hover {
 
 
 
+#wordSlots {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+#keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.keyboardRow {
+    display: flex;
+    gap: 10px;
+}
+
+.letterButton {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+.selectedLetter {
+    background-color: var(--gold);
+    color: var(--background);
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+
+.outerModel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modelBox {
+    background-color: var(--background);
+    border: 5px double var(--gold);
+    border-radius: 15px;
+    padding: 20px 30px;
+    width: 90%;
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.modelBox h2 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.modelBox p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.hidden {
+    display: none;
+}
 

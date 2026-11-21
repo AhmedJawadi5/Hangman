@@ -18,6 +18,7 @@
             
 
 
+
             <header id="headerTag">
                 <div id="divOfHintAndRestart">
                     <button id="hintButton"> Hint </button>
@@ -28,6 +29,8 @@
                     <button id="howToPlayButton"> How to play </button>
                 </div>
             </header>
+
+
 
 
 
@@ -48,6 +51,89 @@
                     <div id="rightLeg" class="bodyParts"></div>
                 </div>
             </main>
+
+
+
+
+
+            <div id="wordSlots">
+                <span class="letterSlot">_</span>
+                <span class="letterSlot">_</span>
+                <span class="letterSlot">_</span>
+                <span class="letterSlot">_</span>
+                <span class="letterSlot">_</span>
+            </div>
+
+            <div id="keyboard">
+                <div class="keyboardRow">
+                    <button class="letterButton">q</button>
+                    <button class="letterButton">w</button>
+                    <button class="letterButton">e</button>
+                    <button class="letterButton">r</button>
+                    <button class="letterButton">t</button>
+                    <button class="letterButton">y</button>
+                    <button class="letterButton">u</button>
+                    <button class="letterButton">i</button>
+                    <button class="letterButton">o</button>
+                    <button class="letterButton">p</button>
+                </div>
+                <div class="keyboardRow">
+                    <button class="letterButton">a</button>
+                    <button class="letterButton">s</button>
+                    <button class="letterButton">d</button>
+                    <button class="letterButton">f</button>
+                    <button class="letterButton">g</button>
+                    <button class="letterButton">h</button>
+                    <button class="letterButton">j</button>
+                    <button class="letterButton">k</button>
+                    <button class="letterButton">l</button>
+                </div>
+                <div class="keyboardRow">
+                    <button class="letterButton">z</button>
+                    <button class="letterButton">x</button>
+                    <button class="letterButton">c</button>
+                    <button class="letterButton">v</button>
+                    <button class="letterButton">b</button>
+                    <button class="letterButton">n</button>
+                    <button class="letterButton">m</button>
+                </div>
+            </div>
+
+
+
+
+            <div id="hintModel" class="outerModel hidden">
+                <div id="hintBox" class="modelBox">
+                    <h2>Hint</h2>
+                    <p id="hintMessage">The word is a car company!</p>
+                    <button id="closeHintButton">Close</button>
+                </div>
+            </div>
+
+            <div id="winLoseModel" class="outerModel hidden">
+                <div id="winLoseBox" class="modelBox">
+                    <h2>Result</h2>
+                    <p id="winLoseMessage">You Won!</p>
+                    <button id="winLoseRestartButton">Restart</button>
+                </div>
+            </div>
+
+            <div id="howToPlayModel" class="outerModel hidden">
+                <div id="howToPlayBox" class="modelBox">
+                    <h2>How To Play</h2>
+                    <ol>
+                        <li>There is a word that you must guess it.</li>
+                        <li>You have 6  wrong attempts to guess the word by choosing the letters of the word.</li>
+                        <li>You can get a hint of the word by clicking the "Hint" button.</li>
+                        <li>Restart the game by clicking the "Restart" button at any time.</li>
+                    </ol>
+                    <button id="howToPlayCloseButton">Back to game</button>
+                </div>
+            </div>
+
+
+
+
 
         </div>
     </body>
