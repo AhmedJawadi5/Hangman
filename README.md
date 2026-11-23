@@ -20,3 +20,11 @@ Goal: [To finish the UI].
 
 Start: [21/11/26] End: [21/11/26] 
     //it took me 20 minutes more to finish it. So I finished on 22/11.
+
+
+
+### Sprint 3
+
+Goal: [To progress with the javascript code].
+
+Start: [22/11/26] End: [24/11/26]
