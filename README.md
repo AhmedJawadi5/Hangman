@@ -1,7 +1,34 @@
 ## Project Planning
 
-- [Project board] (https://github.com/users/AhmedJawadi5/projects/1)
-- [Wireframe] (https://raw.githubusercontent.com/AhmedJawadi5/Hangman/refs/heads/main/GA%20Project1%20(UI%20Picture).png)
+- [Project board](https://github.com/users/AhmedJawadi5/projects/1)
+
+- [Wireframe](images/GA-Project1-(UI-Picture).png)
+
+- [Screenshot of the game](images/Hangman-game-screenshoot.png)
+
+
+
+
+
+
+# Game Name: Hangman
+- Description: Hangman is a game where you must guess a word. The word will be choosen randomely, and you must guess it. You will have 6 wrong attempts. If you have choosed 6 wrong letters which means that you have consumed all the 6 wrong attempts, you will lose. Otherwise, you will win.
+- Background info: According to "Wikipedia" the origins of the game are unknown. And " A version which incorporated hanging imagery was described in a 1902 article in The Philadelphia Inquirer, which stated that it was popular at "White Cap" parties where guests would wear "white peaked caps with masks" ".
+- Why I choose it: The reason that I choosed this game is that I like this game and I spend a lot of time playing and enjoying this game with my classmates.
+
+# Technology used:
+- HTML
+- CSS
+- JavaScript
+
+# Planned future enhancements:
+I may do things to enhance the game, such as:-
+- Choose a specific category of words at the beginning of the game.
+- Improve the UI and the design of the game.
+- Add a background sound while playing the game.
+
+
+
 
 
 
