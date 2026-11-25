@@ -23,15 +23,19 @@
 
 # Planned future enhancements:
 I may do things to enhance the game, such as:-
+- To make the game responsive design, which can be played on mobile.
 - Choose a specific category of words at the beginning of the game.
 - Improve the UI and the design of the game.
 - Add a background sound while playing the game.
 
+# Link of the game:
+- https://ahmedjawadi5.github.io/Hangman/
 
 
 
 
 
+# Sprints
 ### Sprint 1
 
 Goal: [To choose a theme for the background, to finalize the UI, and to start building the UI using HTML and CSS].
