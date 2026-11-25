@@ -28,3 +28,11 @@ Start: [21/11/26] End: [21/11/26]
 Goal: [To progress with the javascript code].
 
 Start: [22/11/26] End: [24/11/26]
+
+
+
+### Sprint 4
+
+Goal: [To finish the javascript code].
+
+Start: [24/11/26] End: [25/11/26]

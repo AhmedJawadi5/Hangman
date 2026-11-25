@@ -285,3 +285,19 @@ button:hover {
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+button:disabled {
+    background-color: var(--buttonHover);
+    cursor: not-allowed;
+}
+

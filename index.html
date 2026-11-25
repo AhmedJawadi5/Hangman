@@ -36,7 +36,7 @@
 
 
             <main id="gameArea">
-                <p id="attemptsText"> 6 Attempts left </p>
+                <p id="attemptsText"> <span id="attemptsLeft">6</span> Attempts left </p>
 
                 <div id="theGallow">
                     <div id="theBase"></div>
@@ -44,12 +44,12 @@
                     <div id="theRoof"></div>
                     <div id="theRope"></div>
 
-                    <div id="head" class="bodyParts"></div>
-                    <div id="body" class="bodyParts"></div>
-                    <div id="leftArm" class="bodyParts"></div>
-                    <div id="rightArm" class="bodyParts"></div>
-                    <div id="leftLeg" class="bodyParts"></div>
-                    <div id="rightLeg" class="bodyParts"></div>
+                    <div id="head" class="bodyParts hidden"></div>
+                    <div id="body" class="bodyParts hidden"></div>
+                    <div id="leftArm" class="bodyParts hidden"></div>
+                    <div id="rightArm" class="bodyParts hidden"></div>
+                    <div id="leftLeg" class="bodyParts hidden"></div>
+                    <div id="rightLeg" class="bodyParts hidden"></div>
                 </div>
             </main>
 
@@ -58,7 +58,9 @@
 
 
             <div id="wordSlots">
-                
+                <!-- the letter slot will be added through JS depend
+                     on the word that has been  randomely choosen 
+                     from the array -->
             </div>
 
             <div id="keyboard">
